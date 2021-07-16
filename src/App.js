@@ -14,12 +14,11 @@ function App() {
   return (
     <div className="container">
       <header className="row bg-secondary">
-        (Header - Cabecera)
-        <img src={Header} class="img-fluid" alt="..."></img>
+        <img src={Header} class="img-fluid" alt="..." className="my-3"></img>
       </header>
 
       <nav className="row bg-primary">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light p-3" style={{backgroundColor: 'rgb(183 255 244)'}}>
           <div className="container-fluid">
             <a className="navbar-brand" href="#">Navbar</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +58,6 @@ function App() {
 
       <section className="row bg-primary"> 
         <article className="col-md-6 bg-warning"> 
-          Articulo 1
           <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
 				  <div className="carousel-indicators">
 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"
@@ -90,8 +88,7 @@ function App() {
 				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea minus vel saepe, a, excepturi odit fuga aperiam.</p>
         </article>
         
-        <article className="col-md-4 bg-secondary">
-          Articulo 2
+        <article className="col-md-3 bg-secondary">
           <div class="card" >
             <img src={Colibri} class="card-img-top" alt="..."/>
             <div class="card-body">
@@ -103,15 +100,72 @@ function App() {
           
         </article>
 
-        <aside className="col-md-2 bg-primary">
-          aside
-          <br/>
+        <aside className="col-md-3 bg-primary">
+          <hr/>
+          <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Open modal for @mdo</button>
+          <hr/>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Open modal for @fat</button>
+          <hr/>
+          <button class="btn btn-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
+          <hr/>
+          <p style={{color:'white'}}>En este apartado se esta considerando algunos tipos de botones y sus funcionalidades</p>
+
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label">Recipient:</label>
+                      <input type="text" class="form-control" id="recipient-name"/>
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label">Message:</label>
+                      <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Send message</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              ...
+          </div>
+          </div>
         </aside>
-        
       </section>
 
-      <footer className="row bg-dark text-light">
-        footer
+      <section className="row bg-dark text-light">
+        <article className="col-md-5 justify-content-center bg-success">
+          <div className="d-flex align-items-stretch pt-2">
+          <iframe width="100%" height="380"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d464.8446757469184!2d-71.54916641680117!3d-16.387950589452185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a6a0172d35d%3A0xebeb3b98aa2420d9!2sInstituto%20Superior%20Honorio%20Delgado%20Espinoza!5e0!3m2!1ses-419!2spe!4v1626405026975!5m2!1ses-419!2spe"  allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <h5>Los Arces 202 Distrito de cayma - Arequipa. </h5>
+          <p>Numero de contacto: 054232323</p>
+        </article>
+        <article className="col-md-7 justify-content-center bg-secondary">
+        <iframe width="100%" height="460" src="https://www.youtube.com/embed/cSOpnQXJu9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+      </section>
+
+
+      <footer className="row bg-dark text-light justify-content-center align-item-center p-5 mb-3">
+        <div className="mx-auto" style={{width: '70%' , fontSize:'2rem' , justifyContent: 'center' , textAlign:'center'}}>
+          <span>Informacion del sitio web</span>
+        </div>
       </footer>
 
     </div>
