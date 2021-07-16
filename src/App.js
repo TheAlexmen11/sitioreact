@@ -14,7 +14,7 @@ function App() {
         <C01componente />
       </header>
 
-      <nav className="row bg-warning">
+      <nav className="row bg-primary">
         (nav-menu)
         <C02contador/>
       </nav>
