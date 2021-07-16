@@ -8,16 +8,39 @@ import EjemploDeDobleEstado from './components/C05dobleestado'
 
 function App() {
   return (
-    <div className="App">
-      <C01componente />
-      <hr></hr>
-      <C02contador/>
-      <hr/>
-      <C03componenteConCss/>
-      <br/>
-      <EjemploDeEstado/>
-      <br/>
-      <EjemploDeDobleEstado/>
+    <div className="container">
+      <header className="row bg-secondary">
+        (Header - Cabecera)
+        <C01componente />
+      </header>
+
+      <nav className="row bg-warning">
+        (nav-menu)
+        <C02contador/>
+      </nav>
+
+      <section className="row bg-primary"> 
+        <article className="col-md-6 bg-warning"> 
+          Articulo 1
+          <C03componenteConCss/>
+        </article>
+        
+        <article className="col-md-4 bg-secondary">
+          Articulo 2
+          <EjemploDeEstado/>
+        </article>
+
+        <aside className="col-md-2 bg-primary">
+          aside
+          <EjemploDeDobleEstado/>
+        </aside>
+        
+      </section>
+
+      <footer className="row bg-dark text-light">
+        footer
+      </footer>
+
     </div>
   );
 }
