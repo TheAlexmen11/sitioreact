@@ -1,31 +1,30 @@
 {
   "files": {
-    "main.css": "/sitioreact/static/css/main.5739ad41.chunk.css",
-    "main.js": "/sitioreact/static/js/main.1dcfc2e9.chunk.js",
-    "main.js.map": "/sitioreact/static/js/main.1dcfc2e9.chunk.js.map",
+    "main.css": "/sitioreact/static/css/main.2ae47eeb.chunk.css",
+    "main.js": "/sitioreact/static/js/main.2a2c3d71.chunk.js",
+    "main.js.map": "/sitioreact/static/js/main.2a2c3d71.chunk.js.map",
     "runtime-main.js": "/sitioreact/static/js/runtime-main.5f5417aa.js",
     "runtime-main.js.map": "/sitioreact/static/js/runtime-main.5f5417aa.js.map",
     "static/css/2.4be38407.chunk.css": "/sitioreact/static/css/2.4be38407.chunk.css",
-    "static/js/2.4fdea4bc.chunk.js": "/sitioreact/static/js/2.4fdea4bc.chunk.js",
-    "static/js/2.4fdea4bc.chunk.js.map": "/sitioreact/static/js/2.4fdea4bc.chunk.js.map",
+    "static/js/2.959b89a4.chunk.js": "/sitioreact/static/js/2.959b89a4.chunk.js",
+    "static/js/2.959b89a4.chunk.js.map": "/sitioreact/static/js/2.959b89a4.chunk.js.map",
     "static/js/3.34948b91.chunk.js": "/sitioreact/static/js/3.34948b91.chunk.js",
     "static/js/3.34948b91.chunk.js.map": "/sitioreact/static/js/3.34948b91.chunk.js.map",
     "index.html": "/sitioreact/index.html",
     "static/css/2.4be38407.chunk.css.map": "/sitioreact/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.5739ad41.chunk.css.map": "/sitioreact/static/css/main.5739ad41.chunk.css.map",
-    "static/js/2.4fdea4bc.chunk.js.LICENSE.txt": "/sitioreact/static/js/2.4fdea4bc.chunk.js.LICENSE.txt",
+    "static/css/main.2ae47eeb.chunk.css.map": "/sitioreact/static/css/main.2ae47eeb.chunk.css.map",
+    "static/js/2.959b89a4.chunk.js.LICENSE.txt": "/sitioreact/static/js/2.959b89a4.chunk.js.LICENSE.txt",
     "static/media/colibri.a3c56989.jpg": "/sitioreact/static/media/colibri.a3c56989.jpg",
     "static/media/galeria1.692e20d9.jpg": "/sitioreact/static/media/galeria1.692e20d9.jpg",
     "static/media/galeria2.bce92cb9.jpg": "/sitioreact/static/media/galeria2.bce92cb9.jpg",
     "static/media/galeria3.d27c91cc.jpg": "/sitioreact/static/media/galeria3.d27c91cc.jpg",
-    "static/media/header.ab9d9c22.jpg": "/sitioreact/static/media/header.ab9d9c22.jpg",
-    "static/media/logo.6ce24c58.svg": "/sitioreact/static/media/logo.6ce24c58.svg"
+    "static/media/header.ab9d9c22.jpg": "/sitioreact/static/media/header.ab9d9c22.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5f5417aa.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.4fdea4bc.chunk.js",
-    "static/css/main.5739ad41.chunk.css",
-    "static/js/main.1dcfc2e9.chunk.js"
+    "static/js/2.959b89a4.chunk.js",
+    "static/css/main.2ae47eeb.chunk.css",
+    "static/js/main.2a2c3d71.chunk.js"
   ]
 }
