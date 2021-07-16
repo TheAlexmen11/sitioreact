@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/sitioreact/static/css/main.8134cf37.chunk.css",
-    "main.js": "/sitioreact/static/js/main.ca0237b4.chunk.js",
-    "main.js.map": "/sitioreact/static/js/main.ca0237b4.chunk.js.map",
-    "runtime-main.js": "/sitioreact/static/js/runtime-main.28599113.js",
-    "runtime-main.js.map": "/sitioreact/static/js/runtime-main.28599113.js.map",
+    "main.css": "/sitioreact/static/css/main.5739ad41.chunk.css",
+    "main.js": "/sitioreact/static/js/main.ef84a22d.chunk.js",
+    "main.js.map": "/sitioreact/static/js/main.ef84a22d.chunk.js.map",
+    "runtime-main.js": "/sitioreact/static/js/runtime-main.5f5417aa.js",
+    "runtime-main.js.map": "/sitioreact/static/js/runtime-main.5f5417aa.js.map",
     "static/css/2.4be38407.chunk.css": "/sitioreact/static/css/2.4be38407.chunk.css",
-    "static/js/2.9d437b95.chunk.js": "/sitioreact/static/js/2.9d437b95.chunk.js",
-    "static/js/2.9d437b95.chunk.js.map": "/sitioreact/static/js/2.9d437b95.chunk.js.map",
-    "static/js/3.3fb55f13.chunk.js": "/sitioreact/static/js/3.3fb55f13.chunk.js",
-    "static/js/3.3fb55f13.chunk.js.map": "/sitioreact/static/js/3.3fb55f13.chunk.js.map",
+    "static/js/2.4fdea4bc.chunk.js": "/sitioreact/static/js/2.4fdea4bc.chunk.js",
+    "static/js/2.4fdea4bc.chunk.js.map": "/sitioreact/static/js/2.4fdea4bc.chunk.js.map",
+    "static/js/3.34948b91.chunk.js": "/sitioreact/static/js/3.34948b91.chunk.js",
+    "static/js/3.34948b91.chunk.js.map": "/sitioreact/static/js/3.34948b91.chunk.js.map",
     "index.html": "/sitioreact/index.html",
     "static/css/2.4be38407.chunk.css.map": "/sitioreact/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.8134cf37.chunk.css.map": "/sitioreact/static/css/main.8134cf37.chunk.css.map",
-    "static/js/2.9d437b95.chunk.js.LICENSE.txt": "/sitioreact/static/js/2.9d437b95.chunk.js.LICENSE.txt",
+    "static/css/main.5739ad41.chunk.css.map": "/sitioreact/static/css/main.5739ad41.chunk.css.map",
+    "static/js/2.4fdea4bc.chunk.js.LICENSE.txt": "/sitioreact/static/js/2.4fdea4bc.chunk.js.LICENSE.txt",
+    "static/media/colibri.a3c56989.jpg": "/sitioreact/static/media/colibri.a3c56989.jpg",
+    "static/media/galeria1.692e20d9.jpg": "/sitioreact/static/media/galeria1.692e20d9.jpg",
+    "static/media/galeria2.bce92cb9.jpg": "/sitioreact/static/media/galeria2.bce92cb9.jpg",
+    "static/media/galeria3.d27c91cc.jpg": "/sitioreact/static/media/galeria3.d27c91cc.jpg",
+    "static/media/header.ab9d9c22.jpg": "/sitioreact/static/media/header.ab9d9c22.jpg",
     "static/media/logo.6ce24c58.svg": "/sitioreact/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.28599113.js",
+    "static/js/runtime-main.5f5417aa.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.9d437b95.chunk.js",
-    "static/css/main.8134cf37.chunk.css",
-    "static/js/main.ca0237b4.chunk.js"
+    "static/js/2.4fdea4bc.chunk.js",
+    "static/css/main.5739ad41.chunk.css",
+    "static/js/main.ef84a22d.chunk.js"
   ]
 }
