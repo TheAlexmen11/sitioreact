@@ -1,8 +1,7 @@
 import React from 'react'
 import Galeria1 from './img/galeria1.jpg';
 import Galeria2 from './img/galeria2.jpg';
-import Galeria3 from './img/galeria3.jpg';
-
+import Galeria3 from './img/galeria3.jpg'
 const Carrusel = () => {
     return (
         <div>

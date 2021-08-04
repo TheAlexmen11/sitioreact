@@ -1,5 +1,5 @@
 import React from 'react'
-import Colibri from './img/colibri.jpg';
+import Colibri from './img/procesador.gif';
 
 const CartTarjeta = () => {
     return (
@@ -7,9 +7,9 @@ const CartTarjeta = () => {
             <div class="card" >
                 <img src={Colibri} class="card-img-top" alt="..."/>
                 <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Procesadores</h5>
+                <p class="card-text">Encuentra los procesadores más recientes de Intel para PCs, desktops, laptops, estaciones de trabajo y servidores, diseñados para todos los casos de uso</p>
+                <a href="#" class="btn btn-primary">Adquirir Productos</a>
             </div>
           </div>
         </div>
